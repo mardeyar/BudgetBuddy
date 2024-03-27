@@ -55,7 +55,14 @@ public class UserController implements UserDAO {
             stmt.setString(1, email);
             resultSet = stmt.executeQuery();
 
-            // TODO: Add logic for whatever I'm going to use this method for
+            if (resultSet.next()) {
+                user = new User(
+                        resultSet.getString("first_name"),
+                        resultSet.getString("last_name"),
+                        resultSet.getString("email"),
+                        resultSet.getString("password")
+                );
+            }
         } catch (SQLException e) {
             System.err.println("SQL error: " + e.getMessage());
         } catch (ClassNotFoundException e) {
