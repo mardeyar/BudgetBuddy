@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface TransactionDAO {
     void insert(Transaction transaction) throws SQLException;
-    List<Transaction> select() throws SQLException;
+    List<Transaction> select(int userId) throws SQLException;
 }

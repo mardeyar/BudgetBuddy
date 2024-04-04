@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface BudgetDAO {
     void insert(Budget budget) throws SQLException;
-    List<Budget> select() throws SQLException;
+    List<Budget> select(int userId) throws SQLException;
 }
