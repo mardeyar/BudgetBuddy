@@ -1,3 +1,110 @@
 body {
-    background-color: #74a6a9;
+    background-color: #eff0f0;
+    margin: 0;
+}
+
+.home-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ebf2f2;
+    padding: 0 35px;
+    box-shadow: 0 6px 10px -9px rgba(0,0,0,0.7);
+}
+
+#profile-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-icon {
+    width: 65px;
+    height: 65px;
+}
+
+#welcome {
+    font-family: Gadugi, sans-serif;
+    padding: 15px;
+}
+
+#logout-link {
+    font-family: Gadugi, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #272727;
+}
+
+h1 {
+    font-family: Gadugi, sans-serif;
+    color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+}
+
+#card-glance {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.budget-card {
+    width: 20rem;
+    margin: 3px 5px;
+    padding: 25px;
+    background-color: rgba(63, 63, 63, 0.2);
+    box-shadow: 0 14px 10px -13px rgba(0,0,0,0.7);
+    border-radius: 8px;
+    border: 4px solid rgb(63, 63, 63);
+    min-height: 228px;
+    transition: transform ease-in-out .3s;
+}
+
+.budget-card:hover {
+    cursor: pointer;
+    transform: scale3d(98%, 100%, 100%);
+    background-color: rgba(63, 63, 63, 0.35);
+}
+
+.glance-card-title {
+    font-family: Gadugi, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border-bottom: 1px solid #505050;
+    color: rgba(0, 0, 0, 0.85);
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+.shrug {
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+
+.none-available {
+    text-align: center;
+    font-family: Gadugi, sans-serif;
+}
+
+.recent-finance {
+    margin: 4px 0;
+}
+
+.recent-finance p {
+    font-family: Gadugi, sans-serif;
+    font-weight: 400;
+}
+
+#card-glance a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+@media only screen and (max-width: 1170px) {
+    #card-glance {
+        flex-direction: column;
+    }
 }

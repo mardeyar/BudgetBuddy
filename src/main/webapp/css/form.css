@@ -1,16 +1,84 @@
+body {
+    font-family: Gadugi, sans-serif;
+    background-image: url("../images/bank.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #user-form {
+    background-color: #e6e1e1d6;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 900px;
+    max-width: 620px;
     margin: 50px auto;
+    box-shadow: 0 6px 10px -4px rgba(0,0,0,0.4);
+}
+
+#form-msg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.85);
+    margin: 20px 0 20px 0;
+    width: 21rem;
+    text-align: center;
+    border-bottom: 1px dotted #505050;
+    padding-bottom: 5px;
+}
+
+#icon {
+    width: 28px;
+    height: 28px;
+}
+
+h1 {
+    margin: 0;
+}
+
+label {
+    width: 21.5rem;
+    margin: 8px 0 5px 0;
+    font-size: 14px;
 }
 
 input {
-    width: 500px;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 150px;
-    border: 1px solid black;
+    width: 20rem;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    box-shadow: 0 7px 7px -9px rgba(0,0,0,0.3);
+}
+
+#form-submit-btn {
+    margin: 30px;
+    background-color: rgba(73, 167, 183, 0.5);
+    padding: 12px;
+    width: 10rem;
+    border: none;
+    border-radius: 100px;
+    font-family: Gadugi, sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 4px 5px -4px rgba(0,0,0,0.6);
+}
+
+#form-submit-btn:hover {
+    cursor: pointer;
+}
+
+#form-redirect-link {
+    margin: 0 0 25px 0;
+}
+
+#form-redirect-link a {
+    text-decoration: none;
+    color: #5b99a4;
+}
+
+#error-msg {
+    color: #e72e2e;
+    font-weight: 600;
 }
