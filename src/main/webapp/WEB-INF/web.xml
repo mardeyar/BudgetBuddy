@@ -21,5 +21,41 @@
         <servlet-name>RegisterServlet</servlet-name>
         <url-pattern>/register</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InvestmentServlet</servlet-name>
+        <servlet-class>com.budgetbuddy.webdfinal.InvestmentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InvestmentServlet</servlet-name>
+        <url-pattern>/investment</url-pattern>
+        <url-pattern>/addInvestment</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BudgetServlet</servlet-name>
+        <servlet-class>com.budgetbuddy.webdfinal.BudgetServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BudgetServlet</servlet-name>
+        <url-pattern>/addBudget</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TransactionServlet</servlet-name>
+        <servlet-class>com.budgetbuddy.webdfinal.TransactionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TransactionServlet</servlet-name>
+        <url-pattern>/addTransaction</url-pattern>
+    </servlet-mapping>
     
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.budgetbuddy.webdfinal.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
 </web-app>
