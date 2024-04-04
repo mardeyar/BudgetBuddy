@@ -3,22 +3,22 @@ package com.budgetbuddy.webdfinal.model;
 public class Budget {
     private int budgetId;
     private int userId;
-    private int categoryId;
+    private String category;
     private double budgetAmount;
     private String month;
 
     // Various constructor methods for different budget types
-    public Budget(int budgetId, int userId, int categoryId, double budgetAmount, String month) {
+    public Budget(int budgetId, int userId, String category, double budgetAmount, String month) {
         this.budgetId = budgetId;
         this.userId = userId;
-        this.categoryId = categoryId;
+        this.category = category;
         this.budgetAmount = budgetAmount;
         this.month = month;
     }
 
-    public Budget(int userId, int categoryId, double budgetAmount, String month) {
+    public Budget(int userId, String category, double budgetAmount, String month) {
         this.userId = userId;
-        this.categoryId = categoryId;
+        this.category = category;
         this.budgetAmount = budgetAmount;
         this.month = month;
     }
@@ -42,12 +42,12 @@ public class Budget {
         this.userId = userId;
     }
 
-    public int getCategoryId() {
-        return categoryId;
+    public String getCategory() {
+        return category;
     }
 
-    public void setCategoryId(int categoryId) {
-        this.categoryId = categoryId;
+    public void setCategory(String category) {
+        this.category = category;
     }
 
     public double getBudgetAmount() {
