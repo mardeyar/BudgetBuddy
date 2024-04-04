@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BudgetBuddy - Home</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/icon" href="images/icon.png">
 </head>
 <body>
     <%--HEADER SECTION--%>
@@ -44,8 +45,8 @@
                 <p>Designed with security in mind, stay at ease knowing your data is protected by the industries leading cybersecurity experts</p>
             </div>
             <div class="blurb-section">
-                <img class="blurb-icon" src="images/stock.png">
-                <p>Easily track all your stock options, investments and calculate your estimated yearly return on investment</p>
+                <img class="blurb-icon" src="images/stat.png">
+                <p>View your recent financial stats at a glance with your dashboards new glance cards</p>
             </div>
         </div>
 
