@@ -57,6 +57,7 @@ public class UserController implements UserDAO {
 
             if (resultSet.next()) {
                 user = new User(
+                        resultSet.getInt(1),
                         resultSet.getString("first_name"),
                         resultSet.getString("last_name"),
                         resultSet.getString("email"),
