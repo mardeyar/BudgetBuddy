@@ -61,6 +61,23 @@ CREATE TABLE investments (
 Open the project in IntelliJ and run the configured server. Your browser should now open up to BudgetBuddy homepage.
 
 ## Visuals
-![1](https://github.com/mardeyar/BudgetBuddy/assets/117761940/38522d5a-f6db-4771-a549-1274aa2840b7)
+![1](https://github.com/mardeyar/BudgetBuddy/assets/117761940/f1f0ea69-bb9e-4004-a102-e1ea1cee95e3)
+
+![2](https://github.com/mardeyar/BudgetBuddy/assets/117761940/606fdbcf-6bc5-43ae-bdc2-573c2de2faef)
+
+![3](https://github.com/mardeyar/BudgetBuddy/assets/117761940/e163fb98-951a-4459-a5dd-d4497805b7e0)
+
+![4](https://github.com/mardeyar/BudgetBuddy/assets/117761940/912eedbc-ef87-4c66-be61-09a03fb90690)
+
+![5](https://github.com/mardeyar/BudgetBuddy/assets/117761940/d0f1954e-1c20-4cf4-8266-6d406e5a4960)
+
+![6](https://github.com/mardeyar/BudgetBuddy/assets/117761940/0b114e36-5df8-4425-8668-b08b10366f80)
+
+![7](https://github.com/mardeyar/BudgetBuddy/assets/117761940/14046d28-e9fe-4251-82c5-f2873c526d20)
+
+
+
+
+
 
 
