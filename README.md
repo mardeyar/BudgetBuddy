@@ -59,3 +59,8 @@ CREATE TABLE investments (
 ```
 
 Open the project in IntelliJ and run the configured server. Your browser should now open up to BudgetBuddy homepage.
+
+## Visuals
+![1](https://github.com/mardeyar/BudgetBuddy/assets/117761940/38522d5a-f6db-4771-a549-1274aa2840b7)
+
+
